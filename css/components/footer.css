@@ -1,0 +1,30 @@
+.nbfooter{
+    background-color: #00513f;
+    position: relative;
+}
+.footer__wrapper{
+    display: flex;
+    padding: 80px 8%;
+    justify-content: center;
+}
+.footerblock{
+
+}
+.normalboots{
+    color: #fff; 
+    padding-bottom: 17px;
+}
+.footer_items{
+    padding-top: 17px;
+    text-align: center;
+}
+.footer_items a{
+    margin: 0 4px;
+}
+.footersvg{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
