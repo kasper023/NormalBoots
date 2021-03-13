@@ -2,6 +2,8 @@
     margin: 0 auto;
 }
 .nbheader{
+    position: fixed;
+    z-index: 1;
     width: 100%;
     background-color: #00af88;
 }
@@ -9,6 +11,9 @@
     display: flex;
     justify-content: space-between;
     padding: 25px 85px;
+}
+.normalboots_img{
+    max-width: 400px;
 }
 .header__right{
     display: flex;
@@ -19,13 +24,15 @@
     display: flex;
     text-align: right;
     font-style: normal;
+    letter-spacing: 2px;
+    line-height: 2em;
 }
 .header_item{
     text-decoration: none;
     margin: 0 0 0 30px;
     color: #fff;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     border: none;
     cursor: pointer;
 }
@@ -41,15 +48,16 @@
     display: none;
     position: absolute;
     background-color: #00af88;
+    border:  solid 0.01px #4b7065;
     min-width: 150px;
     box: 0px 8px 16px 0px;
     z-index: 1;
 }
 .dropdown-child a{
     color: #fff;
-    padding: 20px 20px;
-    border:  solid 1px #00513f;
+    padding: 10px 30px;
     text-decoration: none;
+    border-bottom: solid 0.01px #4b7065;
     text-align: center;
     display: block;
 }
