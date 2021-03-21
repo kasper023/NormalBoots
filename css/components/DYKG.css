@@ -1,0 +1,49 @@
+.dykg {
+    padding: 100px 0;
+}
+.dykg__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.dykg-intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 17px;
+    width: 877px;
+}
+.dykg-intro__guy {
+    width: 430px;
+}
+.dykg-intro__description {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 15px 0;
+    line-height: 24px;
+    margin-left: 18px;
+    padding: 43px;
+}
+.dykg-links {
+    font-size: 15px;
+    padding: 17px;
+    line-height: 24px;
+}
+.dykg-links a {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dykg-links p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+.dykg-links p:first-of-type {
+    margin-top: 0px;
+}
+.dykg-links p:last-of-type {
+    margin-bottom: 0px;
+}

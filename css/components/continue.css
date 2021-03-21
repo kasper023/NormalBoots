@@ -1,0 +1,42 @@
+.continue {
+    padding: 100px 0;
+}
+.continue__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.continue-intro {
+    padding: 17px;
+    width: 795px;
+    margin-bottom: 68px;
+}
+.continue-intro__title {
+    color: #16161d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-bottom: 7.5px;
+}
+.continue-intro__description {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0;
+    line-height: 24px;
+}
+.continue-links {
+    font-size: 15px;
+    list-style-type: disc;  
+    padding: 0 0 0 40px;
+    line-height: 24px;
+}
+.continue-links a {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 15px;
+    line-height: 24px;
+}

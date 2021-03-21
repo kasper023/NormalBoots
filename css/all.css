@@ -1,5 +1,10 @@
 @import 'common/reset.css';
+@import 'common/same.css';
 
 @import 'components/header.css';
 @import 'components/home.css';
 @import 'components/footer.css';
+
+@import 'components/continue.css';
+@import 'components/DYKG.css';
+@import 'components/PBG.css';
