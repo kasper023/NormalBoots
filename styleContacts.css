@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    title {
+        color: #000;
+    }
+    button {
+        background-color: #000;
+        color: #fff;
+        width: 100px;
+        height: 30px;
+        border-radius: 2px;
+    }
+    input {
+        width: 300px;
+        height: 30px;
+
+    }
+    .Message {
+        width: 300px;
+        height: 80px;
+    }
