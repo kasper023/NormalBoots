@@ -1,9 +1,16 @@
 .dykg {
-    padding: 100px 0;
+    padding: 218px 0 100px;
 }
 .dykg__wrapper {
     display: flex;
     flex-direction: column;
+}
+.dykg-img {
+    position: absolute;
+    top: -125px;
+    left: 0;
+    padding: 17px;
+    width: 795px;
 }
 .dykg-intro {
     display: flex;
